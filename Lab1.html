@@ -34,39 +34,47 @@
     
         <h1>title 2</h1>
         <p>lorem ipsum</p>
-    
-        <div>
+        <div class="flex-container">
             <form>
                 <label for="name">Imię i nazwisko:</label><br>
                 <input type="text" id="name" name="name" value="Podaj imie i nazwisko"><br><br>
     
                 <label for="description">Opis:</label><br>
                 <textarea id="description" name="description" rows = 10 cols="40">Wpisz coś o sobie</textarea><br><br>
-    
-                <label for="age">Wiek:</label><br>
-                <select id="age" name="age">
-                    <option value="">Wybierz...</option>
-                    <option value="">18</option>
-                    <option value="">19</option>
-                    <option value="">20</option>
-                    <option value="">21</option>
-                    <option value="">22</option>
-                    <option value="">23</option>
-                </select><br><br>
-    
-                <label for="option">Opcja:</label><br>
-                <input type="radio" id="option1" name="option" value="a"> a<br>
-                <input type="radio" id="option2" name="option" value="b"> b<br>
-                <input type="radio" id="option3" name="option" value="c"> c<br>
-                <input type="button" id="send" name="send_button" value="Wyślij"> <br>
-            </form>
+            </form>  
+            <div>
+                <form class="column">       
+                    <label for="age">Wiek:</label><br>
+                    <select id="age" name="age">
+                        <option value="">Wybierz...</option>
+                        <option value="">18</option>
+                        <option value="">19</option>
+                        <option value="">20</option>
+                        <option value="">21</option>
+                        <option value="">22</option>
+                        <option value="">23</option>
+                    </select><br><br>
+        
+                    <label for="option">Opcja:</label><br>
+                    <input type="radio" id="option1" name="option" value="a"> a<br>
+                    <input type="radio" id="option2" name="option" value="b"> b<br>
+                    <input type="radio" id="option3" name="option" value="c"> c<br>
+                    <input type="button" id="send" name="send_button" value="Wyślij"> <br>
+                </form>
+            </div>
         </div>
+        
     
-        <table>
+        <table id="tbl">
             <tr>
                 <th>col1</th>
                 <th>col2</th>
                 <th>col3</th>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
             </tr>
             <tr>
                 <td>11</td>

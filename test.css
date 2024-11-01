@@ -1,6 +1,7 @@
 /* General body and layout styles */
 body {
     background-image: url("bckg.jpg");
+    background-size: contain;
     margin: 0;
     font-family: Arial, sans-serif;
     display: flex;
@@ -38,7 +39,7 @@ header ul li a {
     background-color: #4076bc;
 }
 header ul li a:hover {
-    background-color: #2697dd;
+    background-color: rgba(85, 181, 255, 0.1);
 }
 header ul li ul {
     padding-left: 0;
@@ -74,12 +75,6 @@ header ul li ul li a {
     font-size: 18px;
     margin-bottom: 20px;
 }
-
-.main img {
-    width: 100%;
-    max-width: 200px;
-    margin: 20px 0;
-}
 /* Footer fixed at the bottom */
 footer {
     background-color: #031a53;
@@ -92,4 +87,30 @@ footer {
     margin-left: 51px;
     margin-right: 50px;
     margin-bottom: 10px;
+}
+.flex-container {
+    padding: 15px;
+    display: flex;
+}
+  
+  .flex-container > div {
+    margin: 20px;
+    margin-left: 150px;
+    padding: 50px;
+}
+#tbl {
+    width: 100%;
+}
+#tbl td, #tbl th {
+    padding: 8px;
+}
+#tbl tr:nth-child(even) {background-color: hsl(232, 100%, 95%);}
+#tbl th {
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(5, 113, 207);
+}
+#tbl tr {
+    padding: 15px;
+    text-align: center;
 }
