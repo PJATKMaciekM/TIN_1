@@ -75,7 +75,7 @@ header ul li ul li a {
     font-size: 18px;
     margin-bottom: 20px;
 }
-/* Footer fixed at the bottom */
+
 footer {
     background-color: #031a53;
     color: white;
@@ -88,15 +88,13 @@ footer {
     margin-right: 50px;
     margin-bottom: 10px;
 }
-.flex-container {
+.wrapper {
     padding: 15px;
     display: flex;
 }
   
-  .flex-container > div {
-    margin: 20px;
-    margin-left: 150px;
-    padding: 50px;
+.wrapper > form {
+    flex: 50%;
 }
 #tbl {
     width: 100%;

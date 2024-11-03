@@ -1,0 +1,117 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #38444d;
+}
+
+li {
+    float: left;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: rgb(76, 115, 255);
+}
+
+li.dropdown {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    max-width: 70px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 99;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media only screen and (min-width: 1000px) {
+    .main {
+        display: flex;
+        background-color: #b8b8b8;
+    }
+
+    .main>article {
+        margin: 10px;
+        padding: 20px;
+        flex: 50%;
+        background-color: #f1f1f1;
+    }
+}
+.main {
+    background-color: #b8b8b8;
+}
+
+.main>article {
+    margin: 10px;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.main img {
+    width: 100%;
+    max-height: 150px;
+}
+
+#tbl {
+    width: 50%;
+}
+
+#tbl td,
+#tbl th {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.frm {
+    width: 100%;
+    padding: 10px;
+    background-color: #7b7f82;
+    text-align: left;
+}
+
+.lbl {
+    width: 80%;
+    padding: 10px;
+    padding-right: 30px;
+    margin-right: 10px;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer>p {
+    flex: 33.33%;
+    text-align: center;
+    color: #268cda;
+}
