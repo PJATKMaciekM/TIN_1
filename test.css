@@ -1,4 +1,3 @@
-/* General body and layout styles */
 body {
     background-image: url("bckg.jpg");
     background-size: contain;
@@ -10,7 +9,6 @@ body {
     overflow: hidden; /* Prevents the whole page from scrolling */
 }
 
-/* Sidebar (header) fixed on the left */
 ul {
     list-style-type: none;
     padding: 0;
@@ -52,8 +50,8 @@ header ul li ul li a {
 
 /* Main content area that scrolls independently */
 .main {
-    margin-left: 24%;
-    margin-right: 52px;
+    margin-left: 22.65%;
+    margin-right: 5.4%;
     margin-bottom: 10px;
     padding: 20px;
     overflow-y: auto;
@@ -111,4 +109,11 @@ footer {
 #tbl tr {
     padding: 15px;
     text-align: center;
+}
+.hamburger-menu {
+    display: none;
+}
+.nav-links {
+    margin: 0px;
+    padding:  0px;
 }

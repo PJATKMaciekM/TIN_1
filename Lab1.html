@@ -10,18 +10,27 @@
 
 <body>
     <header>
-        <ul>
-            <li class="dropdown"><a href="#" class="dropbtn">link </a>
-                <ul class="dropdown-content">
-                    <li><a href="123">link 2</a></li>
-                    <li><a href="123">link 2</a></li>
-                    <li><a href="123">link 2</a></li>
-                </ul>
-            </li>
-            <li><a href="123">link 2</a></li>
-            <li><a href="fdsac">link 3</a></li>
-        </ul>
+        <button class="hamburger-menu" onclick="toggleMenu()">☰</button>
+        <div class="nav-links">
+            <ul>
+                <li class="dropdown"><a href="#" class="dropbtn">link</a>
+                    <ul class="dropdown-content">
+                        <li><a href="123">link 2</a></li>
+                        <li><a href="123">link 2</a></li>
+                        <li><a href="123">link 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="123">link 2</a></li>
+                <li><a href="fdsac">link 3</a></li>
+            </ul>
+        </div>
     </header>
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('.nav-links');
+            nav.classList.toggle('active');
+        }
+    </script>
     <section class="main">
         <article>
             <h1>title 1</h1>
